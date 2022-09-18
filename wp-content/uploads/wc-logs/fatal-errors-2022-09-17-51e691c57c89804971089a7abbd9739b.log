@@ -1,0 +1,24 @@
+2022-09-17T14:05:07+00:00 CRITICAL Uncaught Error: Call to undefined function wpac_count_likes() in C:\xampp\htdocs\wordpress\wp-content\plugins\wpac-like-system\inc\shortcodes.php:15
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(356): wpac_like_count_shortcode('', '', 'WPAC_LIKE_COUNT')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(WPAC_L...', 'do_shortcode_ta...', '\t\t<div data-ele...')
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): do_shortcode('\t\t<div data-ele...')
+#4 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(191): WP_Hook->apply_filters('\t\t<div data-ele...', Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\post-template.php(253): apply_filters('the_content', '<style>/*! elem...')
+#6 C:\xampp\htdocs\wordpress\wp-content\themes\astra\template-parts\content-page.php(54): the_content()
+#7 C:\xampp\htdocs\wordpress\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\ in C:\xampp\htdocs\wordpress\wp-content\plugins\wpac-like-system\inc\shortcodes.php on line 15
+
+2022-09-17T14:05:16+00:00 CRITICAL Uncaught Error: Call to undefined function wpac_count_likes() in C:\xampp\htdocs\wordpress\wp-content\plugins\wpac-like-system\inc\shortcodes.php:15
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(356): wpac_like_count_shortcode('', '', 'WPAC_LIKE_COUNT')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(WPAC_L...', 'do_shortcode_ta...', '\t\t<div data-ele...')
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): do_shortcode('\t\t<div data-ele...')
+#4 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(191): WP_Hook->apply_filters('\t\t<div data-ele...', Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\post-template.php(253): apply_filters('the_content', '<style>/*! elem...')
+#6 C:\xampp\htdocs\wordpress\wp-content\themes\astra\template-parts\content-page.php(54): the_content()
+#7 C:\xampp\htdocs\wordpress\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\ in C:\xampp\htdocs\wordpress\wp-content\plugins\wpac-like-system\inc\shortcodes.php on line 15
+
